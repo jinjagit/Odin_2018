@@ -1,6 +1,6 @@
 |                                command                                 |                           description                         |
 |------------------------------------------------------------------------|---------------------------------------------------------------|
-| UNIX and LINUX commands:                                                                                                               |
+| UNIX and LINUX commands:                                               |                                                               |
 | ls -a                                                                  | list files, including hidden                                  |
 | ls -lhs                                                                | list files, human-readable filesizes, sorted by size          |
 | ln a.txt b.txt                                                         | hard link source file(a) to a newly created file (b)          |
