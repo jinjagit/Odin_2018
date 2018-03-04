@@ -1,6 +1,6 @@
 |                                command                                 |                           description                         |
 |------------------------------------------------------------------------|---------------------------------------------------------------|
-| UNIX and LINUX commands:                                               |                                                               |
+| UNIX and LINUX commands:                                                                                                               |
 | ls -a                                                                  | list files, including hidden                                  |
 | ls -lhs                                                                | list files, human-readable filesizes, sorted by size          |
 | ln a.txt b.txt                                                         | hard link source file(a) to a newly created file (b)          |
@@ -15,7 +15,6 @@
 | mv -v a.txt b.txt                                                      | move file (verbose)                                           |
 | ls -a ~ ║ grep _                                                       | pipe output of ls -a ~ to grep (finds files containing '_')   |
 | ls -a ~ ║ grep _ ║ sed "s/__/-/g"                                       | as above + replace all '_' to '-'                             |
-| testing git commit | zzz |
 
 
 
