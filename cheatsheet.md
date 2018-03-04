@@ -13,8 +13,8 @@
 | cp -i a.txt b.txt                                                      | confirm each overwrite                                        |
 | rm -v a.txt                                                            | delete a.txt (verbose)                                        |
 | mv -v a.txt b.txt                                                      | move file (verbose)                                           |
-| ls -a ~ | grep _                                                       | pipe output of ls -a ~ to grep (finds files containing '_')   |
-| ls -a ~ | grep _ | sed "s/__/-/g"                                       | as above + replace all '_' to '-'                             |
+| ls -a ~ ║ grep _                                                       | pipe output of ls -a ~ to grep (finds files containing '_')   |
+| ls -a ~ ║ grep _ ║ sed "s/__/-/g"                                       | as above + replace all '_' to '-'                             |
 
 
 
