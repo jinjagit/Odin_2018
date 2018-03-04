@@ -15,6 +15,7 @@
 | mv -v a.txt b.txt                                                      | move file (verbose)                                           |
 | ls -a ~ ║ grep _                                                       | pipe output of ls -a ~ to grep (finds files containing '_')   |
 | ls -a ~ ║ grep _ ║ sed "s/__/-/g"                                       | as above + replace all '_' to '-'                             |
+| testing git commit | zzz |
 
 
 
